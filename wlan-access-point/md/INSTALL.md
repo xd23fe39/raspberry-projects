@@ -90,6 +90,7 @@ sudo hostapd -dd /etc/hostapd/hostapd.conf
 # File: /etc/hostapd/hostapd.conf
 # WLAN-Router-Betrieb
 # Schnittstelle und Treiber für Pi 2 Modell B
+# Treiber ist das 802.11 netlink interface (nl80211)
 interface=wlan0
 driver=nl80211
 # WLAN-Konfiguration
