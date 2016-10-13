@@ -150,6 +150,27 @@ address=/test.coderbox/10.1.1.254
 
 ***
 
+Was ist noch zu tun?
+----------------------
+
+Raspberry PI Coderbox als Nameserver eintragen:
+
+```shell
+# Raspberry PI Coderbox als Nameserver eintragen
+
+# Zum root-Benutzer wechseln
+sudo su -
+
+# neuen Nameserver in tail eintragen
+vi /etc/resolvconf/resolv.conf.d/tail
+
+# update
+resolvconf -u
+```
+
+
+***
+
 Quellen
 --------
 
